@@ -1,20 +1,26 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Textures - A-Frame School</title>
-    <meta name="description" content="Textures - A-Frame School">
-    <script src="https://aframe.io/releases/0.5.0/aframe.min.js"></script>
+    <title>Atspace Bar</title>
+    <meta name="description" content="Attempt at a Altspace VR Social Area">
   </head>
+  
   <body>
-    <a-scene>
-      <a-cylinder src="https://cdn.glitch.com/cc32bd63-39a7-4e66-aea0-7c8fbdd75dfb%2FTexturesCom_WoodFine0039_1_seamless_S.jpg?1496857268341" height=".25" radius="5"  position="0 1 -6">
-        <a-cylinder src="https://cdn.glitch.com/cc32bd63-39a7-4e66-aea0-7c8fbdd75dfb%2FTexturesCom_WoodFine0039_1_seamless_S.jpg?1496857268341" height=".25" radius="3" " position="0 .25 0"></a-cylinder></a-cylinder>
+    
+    <script src="https://aframe.io/releases/0.5.0/aframe.min.js"></script>
+    
+    <a-scene altspace>
+      <a-entity title="Stage">
+      <a-cylinder src="https://cdn.glitch.com/cc32bd63-39a7-4e66-aea0-7c8fbdd75dfb%2FTexturesCom_WoodFine0039_1_seamless_S.jpg?1496857268341" height=".25" radius="3"  position="0 1 -6">
+        <a-cylinder src="https://cdn.glitch.com/cc32bd63-39a7-4e66-aea0-7c8fbdd75dfb%2FTexturesCom_WoodFine0039_1_seamless_S.jpg?1496857268341" height=".25" radius="1" position="0 .25 0"></a-cylinder></a-cylinder>
+      </a-entity>
       
 
-      <a-plane src="" rotation="-90 0 0" height="100" width="100"></a-plane>
+     
 
       <a-light type="ambient" color="#445451"></a-light>
       <a-light type="point" intensity="2" position="2 4 4"></a-light>
+       
     </a-scene>
   </body>
 </html>
